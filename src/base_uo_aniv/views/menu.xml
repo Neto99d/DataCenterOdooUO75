@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <record id="info_action" model="ir.actions.act_window">
+        <field name="name">Bienvenido</field>
+        <field name="res_model">info.info</field>
+        <field name="view_mode">form</field>
+    </record>
+
+    <record id="mision_action" model="ir.actions.act_window">
+        <field name="name">Misión</field>
+        <field name="res_model">mision.mision</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="vision_action" model="ir.actions.act_window">
+        <field name="name">Visión</field>
+        <field name="res_model">vision.vision</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="objeto_action" model="ir.actions.act_window">
+        <field name="name">Objeto Social</field>
+        <field name="res_model">objeto.objeto</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="identidad_action" model="ir.actions.act_window">
+        <field name="name">Identidad</field>
+        <field name="res_model">identidad.identidad</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="reseña_action" model="ir.actions.act_window">
+        <field name="name">Reseña Histórica</field>
+        <field name="res_model">resena.resena</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="rectores_action" model="ir.actions.act_window">
+        <field name="name">Rectores</field>
+        <field name="res_model">rectores.rectores</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="pdtFeu_action" model="ir.actions.act_window">
+        <field name="name">Presidentes de la FEU</field>
+        <field name="res_model">pdtefeu.pdtefeu</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="profEmerito_action" model="ir.actions.act_window">
+        <field name="name">Profesores Emérito</field>
+        <field name="res_model">profeemerito.profeemerito</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="patrimonio_action" model="ir.actions.act_window">
+        <field name="name">Patrimonio</field>
+        <field name="res_model">patrimonio.patrimonio</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="estadis_action" model="ir.actions.act_window">
+        <field name="name">Estadísticas</field>
+        <field name="res_model">estadisticas.estadisticas</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="campaña_action" model="ir.actions.act_window">
+        <field name="name">Campaña</field>
+        <field name="res_model">campana.campana</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="honorCausa_action" model="ir.actions.act_window">
+        <field name="name">Honoris Causa</field>
+        <field name="res_model">honorcausa.honorcausa</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="multimedia_action" model="ir.actions.act_window">
+        <field name="name">Multimedia</field>
+        <field name="res_model">multimedia.multimedia</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="postales_action" model="ir.actions.act_window">
+        <field name="name">Postales</field>
+        <field name="res_model">postales.postales</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="redesSociales_action" model="ir.actions.act_window">
+        <field name="name">Redes Sociales</field>
+        <field name="res_model">redesociales.redesociales</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="efemerides_action" model="ir.actions.act_window">
+        <field name="name">Efemérides</field>
+        <field name="res_model">efemerides.efemerides</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="aviso_action" model="ir.actions.act_window">
+        <field name="name">Aviso Especial</field>
+        <field name="res_model">aviso.aviso</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    
+    <menuitem id="manage_menu_root" name="Centro de Datos UO" action="base_uo_aniv.info_action" />
+    <menuitem id="institucion" parent="manage_menu_root" name="Institución" />
+    <menuitem id="mision" name="Misión" parent="institucion" action="base_uo_aniv.mision_action" />
+    <menuitem id="vision" name="Visión" parent="institucion" action="base_uo_aniv.vision_action" />
+    <menuitem id="objeto" name="Objeto Social" parent="institucion" action="base_uo_aniv.objeto_action" />
+    <menuitem id="identidad" name="Identidad" parent="institucion" action="base_uo_aniv.identidad_action" />
+    <menuitem id="aviso_esp" name="Aviso Especial" parent="institucion" action="base_uo_aniv.aviso_action"/>
+
+    <menuitem id="historia" parent="institucion" name="Historia" />
+    <menuitem id="reseña" name="Reseña Histórica" parent="historia" action="base_uo_aniv.reseña_action" />
+    <menuitem id="rectores" name="Rectores" parent="historia" action="base_uo_aniv.rectores_action" />
+    <menuitem id="pfeu" name="Presidentes de la FEU" parent="historia" action="base_uo_aniv.pdtFeu_action" />
+    <menuitem id="honor" name="Honoris Causa" parent="historia" action="base_uo_aniv.honorCausa_action" />
+    <menuitem id="pemerito" name="Profesores Eméritos" parent="historia" action="base_uo_aniv.profEmerito_action" />
+    <menuitem id="efemerides" name="Efemérides" parent="historia" action="base_uo_aniv.efemerides_action" />
+
+    <menuitem id="extra" parent="institucion" name="Otras Informaciones" />
+    <menuitem id="patrimonio" name="Patrimonio" parent="extra" action="base_uo_aniv.patrimonio_action" />
+    <menuitem id="estadis" name="Estadisticas" parent="extra" action="base_uo_aniv.estadis_action" />
+    <menuitem id="campana" name="Campaña" parent="extra" action="base_uo_aniv.campaña_action" />
+    <menuitem id="redes" name="Redes Sociales" parent="extra" action="base_uo_aniv.redesSociales_action" />
+
+    <menuitem id="extraMedia" parent="manage_menu_root" name="Media" />
+    <menuitem id="multimedia" name="Multimedia" parent="extraMedia" action="base_uo_aniv.multimedia_action" />
+    <menuitem id="postales" name="Postales" parent="extraMedia" action="base_uo_aniv.postales_action" />
+    
+
+
+</odoo>
