@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+  <!-- Info form view -->
+  <record id="info_view_form" model="ir.ui.view">
+    <field name="name">info.view.form</field>
+    <field name="model">info.info</field>
+    <field name="arch" type="xml">
+      <form create="false" edit="false" delete="false" duplicate="false">
+        <group>
+          <!-- Add your fields here -->
+          <h1>Bienvenido al Centro de Datos UO</h1>
+          <br />
+          <h3>Módulo de datos para proveer la información a la aplicación móvil de la Universidad de Oriente</h3>
+          <br />
+          <h4>Versión 2.0</h4>
+        </group>
+      </form>
+    </field>
+  </record>
+</odoo>

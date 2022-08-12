@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="multimedia_view_form" model="ir.ui.view">
+        <field name="name">multimedia.view.form</field>
+        <field name="model">multimedia.multimedia</field>
+        <field name="arch" type="xml">
+            <form string="">
+                <sheet>
+                    <group>
+                        <field name="name" readonly="1"/>
+                        <field name="contenido" />
+                         <field name="imagen" filename="store_fname" />
+                        <field name="store_fname" invisible="1" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="multimedia_view_tree" model="ir.ui.view">
+        <field name="name">multimedia.view.tree</field>
+        <field name="model">multimedia.multimedia</field>
+        <field name="arch" type="xml">
+            <tree string="">
+                <field name="name" />
+                <field name="contenido" />
+                <field name="imagen" filename="store_fname" />
+                <field name="store_fname" invisible="1" />
+            </tree>
+        </field>
+    </record>
+</odoo>

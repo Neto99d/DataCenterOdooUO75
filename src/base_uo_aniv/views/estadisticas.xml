@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="estadisticas_view_form" model="ir.ui.view">
+        <field name="name">estadisticas.view.form</field>
+        <field name="model">estadisticas.estadisticas</field>
+        <field name="arch" type="xml">
+            <form string="">
+                <sheet>
+                    <group>
+                        <field name="name" />
+                        <field name="cantidad" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="estadisticas_view_tree" model="ir.ui.view">
+        <field name="name">estadisticas.view.tree</field>
+        <field name="model">estadisticas.estadisticas</field>
+        <field name="arch" type="xml">
+            <tree string="">
+                <field name="name" />
+                <field name="cantidad" />
+            </tree>
+        </field>
+    </record>
+</odoo>
