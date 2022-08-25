@@ -7,14 +7,14 @@ class Multimedia(models.Model):
     _description = 'Multimedia'
 
     name = fields.Char(
-        string='Multimedia',
+        string='Título',
         required=True,
         default=lambda self: self._get_default_name(),
         copy=False
     )
 
     contenido = fields.Text(
-        string='Contenido',
+        string='Enlace directo al video',
     )
 
     imagen = fields.Binary(string='Imagen', attachment=True, default=lambda self: self._get_default_image())
