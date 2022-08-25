@@ -8,7 +8,7 @@
             <form string="">
                 <sheet>
                     <group>
-                        <field name="name" readonly="1"/>
+                        <field name="name"/>
                         <field name="contenido" />
                          <field name="imagen" filename="store_fname" />
                         <field name="store_fname" invisible="1" />
