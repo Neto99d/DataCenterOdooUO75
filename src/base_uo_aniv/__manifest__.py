@@ -25,7 +25,7 @@
 ###############################################################################
 {
     'name': 'INFOCOM',
-    'summary': 'Datos para App android UO Aniversario 75.',
+    'summary': 'Datos para App android de la Universidad de Oriente, Aniversario 75.',
     'version': '2.0',
 
     'description': """
@@ -35,7 +35,7 @@ Datos para App android UO Aniversario 75.
 
     """,
 
-    'author': 'Ernesto Duvalón Hernández (Neto)',
+    'author': 'Ernesto Duvalón Hernández',
     'maintainer': 'Universidad de Oriente',
 
     'license': 'AGPL-3',

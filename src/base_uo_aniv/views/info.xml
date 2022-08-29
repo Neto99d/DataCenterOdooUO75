@@ -8,9 +8,9 @@
       <form create="false" edit="false" delete="false" duplicate="false">
         <group>
           <!-- Add your fields here -->
-          <h1>Bienvenido al Centro de Datos UO</h1>
+          <h1>Bienvenido al Centro de Datos INFOCOM</h1>
           <br />
-          <h3>Módulo de datos para proveer la información a la aplicación móvil de la Universidad de Oriente</h3>
+          <h3>Módulo para proveer de información a la aplicación móvil de la Universidad de Oriente</h3>
           <br />
           <h4>Versión 2.0</h4>
         </group>
