@@ -124,10 +124,11 @@
     <menuitem id="honor" name="Honoris Causa" parent="historia" action="base_uo_aniv.honorCausa_action" />
     <menuitem id="pemerito" name="Profesores Eméritos" parent="historia" action="base_uo_aniv.profEmerito_action" />
     <menuitem id="efemerides" name="Efemérides" parent="historia" action="base_uo_aniv.efemerides_action" />
+	<menuitem id="patrimonio" name="Patrimonio" parent="historia" action="base_uo_aniv.patrimonio_action" />
+
 
     <menuitem id="extra" parent="institucion" name="Otras Informaciones" />
-    <menuitem id="patrimonio" name="Patrimonio" parent="extra" action="base_uo_aniv.patrimonio_action" />
-    <menuitem id="estadis" name="Estadisticas" parent="extra" action="base_uo_aniv.estadis_action" />
+    <menuitem id="estadis" name="Estadísticas" parent="extra" action="base_uo_aniv.estadis_action" />
     <menuitem id="campana" name="Campaña" parent="extra" action="base_uo_aniv.campaña_action" />
     <menuitem id="redes" name="Redes Sociales" parent="extra" action="base_uo_aniv.redesSociales_action" />
 
