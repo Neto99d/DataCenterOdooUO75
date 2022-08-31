@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    
+    <record id="group_base_uo75" model="res.groups">
+        <field name="name">Usuarios #75UO / INFOCOM 75 </field>
+    </record>
+    
+</odoo>

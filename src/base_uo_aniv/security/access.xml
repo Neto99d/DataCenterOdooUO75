@@ -6,7 +6,7 @@
     <record id="model_access_Campaña" model="ir.model.access">
         <field name="name">model.access.Campaña</field>
         <field name="model_id" ref="base_uo_aniv.model_campana_campana" />
-        <field name="group_id" ref="base.group_system" /> <!--Usuario con acceso-->
+        <field name="group_id" ref="base_uo_aniv.group_base_uo75" /> <!--Usuario con acceso-->
         <field name="perm_read" eval="1" />
         <field name="perm_write" eval="1" />
         <field name="perm_create" eval="1" />
@@ -16,7 +16,7 @@
     <record id="model_access_Efemerides" model="ir.model.access">
         <field name="name">model.access.Efemerides</field>
         <field name="model_id" ref="base_uo_aniv.model_efemerides_efemerides" />
-        <field name="group_id" ref="base.group_system" /> <!--Usuario con acceso-->
+        <field name="group_id" ref="base_uo_aniv.group_base_uo75" /> <!--Usuario con acceso-->
         <field name="perm_read" eval="1" />
         <field name="perm_write" eval="1" />
         <field name="perm_create" eval="1" />
@@ -26,7 +26,7 @@
     <record id="model_access_Estadisticas" model="ir.model.access">
         <field name="name">model.access.Estadisticas</field>
         <field name="model_id" ref="base_uo_aniv.model_estadisticas_estadisticas" />
-        <field name="group_id" ref="base.group_system" /> <!--Usuario con acceso-->
+        <field name="group_id" ref="base_uo_aniv.group_base_uo75" /> <!--Usuario con acceso-->
         <field name="perm_read" eval="1" />
         <field name="perm_write" eval="1" />
         <field name="perm_create" eval="1" />
@@ -36,7 +36,7 @@
     <record id="model_access_HonorCausa" model="ir.model.access">
         <field name="name">model.access.HonorCausa</field>
         <field name="model_id" ref="base_uo_aniv.model_honorcausa_honorcausa" />
-        <field name="group_id" ref="base.group_system" /> <!--Usuario con acceso-->
+        <field name="group_id" ref="base_uo_aniv.group_base_uo75" /> <!--Usuario con acceso-->
         <field name="perm_read" eval="1" />
         <field name="perm_write" eval="1" />
         <field name="perm_create" eval="1" />
@@ -46,7 +46,7 @@
     <record id="model_access_Identidad" model="ir.model.access">
         <field name="name">model.access.Identidad</field>
         <field name="model_id" ref="base_uo_aniv.model_identidad_identidad" />
-        <field name="group_id" ref="base.group_system" /> <!--Usuario con acceso-->
+        <field name="group_id" ref="base_uo_aniv.group_base_uo75" /> <!--Usuario con acceso-->
         <field name="perm_read" eval="1" />
         <field name="perm_write" eval="1" />
         <field name="perm_create" eval="1" />
@@ -56,7 +56,7 @@
     <record id="model_access_Mision" model="ir.model.access">
         <field name="name">model.access.Mision</field>
         <field name="model_id" ref="base_uo_aniv.model_mision_mision" />
-        <field name="group_id" ref="base.group_system" /> <!--Usuario con acceso-->
+        <field name="group_id" ref="base_uo_aniv.group_base_uo75" /> <!--Usuario con acceso-->
         <field name="perm_read" eval="1" />
         <field name="perm_write" eval="1" />
         <field name="perm_create" eval="1" />
@@ -66,7 +66,7 @@
     <record id="model_access_Multimedia" model="ir.model.access">
         <field name="name">model.access.Multimedia</field>
         <field name="model_id" ref="base_uo_aniv.model_multimedia_multimedia" />
-        <field name="group_id" ref="base.group_system" /> <!--Usuario con acceso-->
+        <field name="group_id" ref="base_uo_aniv.group_base_uo75" /> <!--Usuario con acceso-->
         <field name="perm_read" eval="1" />
         <field name="perm_write" eval="1" />
         <field name="perm_create" eval="1" />
@@ -76,7 +76,7 @@
     <record id="model_access_Objeto" model="ir.model.access">
         <field name="name">model.access.Objeto</field>
         <field name="model_id" ref="base_uo_aniv.model_objeto_objeto" />
-        <field name="group_id" ref="base.group_system" /> <!--Usuario con acceso-->
+        <field name="group_id" ref="base_uo_aniv.group_base_uo75" /> <!--Usuario con acceso-->
         <field name="perm_read" eval="1" />
         <field name="perm_write" eval="1" />
         <field name="perm_create" eval="1" />
@@ -86,7 +86,7 @@
     <record id="model_access_Patrimonio" model="ir.model.access">
         <field name="name">model.access.Patrimonio</field>
         <field name="model_id" ref="base_uo_aniv.model_patrimonio_patrimonio" />
-        <field name="group_id" ref="base.group_system" /> <!--Usuario con acceso-->
+        <field name="group_id" ref="base_uo_aniv.group_base_uo75" /> <!--Usuario con acceso-->
         <field name="perm_read" eval="1" />
         <field name="perm_write" eval="1" />
         <field name="perm_create" eval="1" />
@@ -96,7 +96,7 @@
     <record id="model_access_Postales" model="ir.model.access">
         <field name="name">model.access.Postales</field>
         <field name="model_id" ref="base_uo_aniv.model_postales_postales" />
-        <field name="group_id" ref="base.group_system" /> <!--Usuario con acceso-->
+        <field name="group_id" ref="base_uo_aniv.group_base_uo75" /> <!--Usuario con acceso-->
         <field name="perm_read" eval="1" />
         <field name="perm_write" eval="1" />
         <field name="perm_create" eval="1" />
@@ -106,7 +106,7 @@
     <record id="model_access_ProfeEmerito" model="ir.model.access">
         <field name="name">model.access.ProfeEmerito</field>
         <field name="model_id" ref="base_uo_aniv.model_profeemerito_profeemerito" />
-        <field name="group_id" ref="base.group_system" /> <!--Usuario con acceso-->
+        <field name="group_id" ref="base_uo_aniv.group_base_uo75" /> <!--Usuario con acceso-->
         <field name="perm_read" eval="1" />
         <field name="perm_write" eval="1" />
         <field name="perm_create" eval="1" />
@@ -116,7 +116,7 @@
     <record id="model_access_PdteFeu" model="ir.model.access">
         <field name="name">model.access.PdteFeu</field>
         <field name="model_id" ref="base_uo_aniv.model_pdtefeu_pdtefeu" />
-        <field name="group_id" ref="base.group_system" /> <!--Usuario con acceso-->
+        <field name="group_id" ref="base_uo_aniv.group_base_uo75" /> <!--Usuario con acceso-->
         <field name="perm_read" eval="1" />
         <field name="perm_write" eval="1" />
         <field name="perm_create" eval="1" />
@@ -126,7 +126,7 @@
     <record id="model_access_Rectores" model="ir.model.access">
         <field name="name">model.access.Rectores</field>
         <field name="model_id" ref="base_uo_aniv.model_rectores_rectores" />
-        <field name="group_id" ref="base.group_system" /> <!--Usuario con acceso-->
+        <field name="group_id" ref="base_uo_aniv.group_base_uo75" /> <!--Usuario con acceso-->
         <field name="perm_read" eval="1" />
         <field name="perm_write" eval="1" />
         <field name="perm_create" eval="1" />
@@ -136,7 +136,7 @@
     <record id="model_access_RedesSociales" model="ir.model.access">
         <field name="name">model.access.RedesSociales</field>
         <field name="model_id" ref="base_uo_aniv.model_redesociales_redesociales" />
-        <field name="group_id" ref="base.group_system" /> <!--Usuario con acceso-->
+        <field name="group_id" ref="base_uo_aniv.group_base_uo75" /> <!--Usuario con acceso-->
         <field name="perm_read" eval="1" />
         <field name="perm_write" eval="1" />
         <field name="perm_create" eval="1" />
@@ -146,7 +146,7 @@
     <record id="model_access_Reseña" model="ir.model.access">
         <field name="name">model.access.Reseña</field>
         <field name="model_id" ref="base_uo_aniv.model_resena_resena" />
-        <field name="group_id" ref="base.group_system" /> <!--Usuario con acceso-->
+        <field name="group_id" ref="base_uo_aniv.group_base_uo75" /> <!--Usuario con acceso-->
         <field name="perm_read" eval="1" />
         <field name="perm_write" eval="1" />
         <field name="perm_create" eval="1" />
@@ -156,7 +156,7 @@
     <record id="model_access_Vision" model="ir.model.access">
         <field name="name">model.access.Vision</field>
         <field name="model_id" ref="base_uo_aniv.model_vision_vision" />
-        <field name="group_id" ref="base.group_system" /> <!--Usuario con acceso-->
+        <field name="group_id" ref="base_uo_aniv.group_base_uo75" /> <!--Usuario con acceso-->
         <field name="perm_read" eval="1" />
         <field name="perm_write" eval="1" />
         <field name="perm_create" eval="1" />
@@ -166,7 +166,7 @@
     <record id="model_access_Aviso" model="ir.model.access">
         <field name="name">model.access.Aviso</field>
         <field name="model_id" ref="base_uo_aniv.model_aviso_aviso" />
-        <field name="group_id" ref="base.group_system" /> <!--Usuario con acceso-->
+        <field name="group_id" ref="base_uo_aniv.group_base_uo75" /> <!--Usuario con acceso-->
         <field name="perm_read" eval="1" />
         <field name="perm_write" eval="1" />
         <field name="perm_create" eval="1" />
@@ -176,7 +176,7 @@
     <record id="model_access_Info" model="ir.model.access">
         <field name="name">model.access.Info</field>
         <field name="model_id" ref="base_uo_aniv.model_info_info" />
-        <field name="group_id" ref="base.group_system" /> <!--Usuario con acceso-->
+        <field name="group_id" ref="base_uo_aniv.group_base_uo75" /> <!--Usuario con acceso-->
         <field name="perm_read" eval="1" />
         <field name="perm_write" eval="0" />
         <field name="perm_create" eval="0" />

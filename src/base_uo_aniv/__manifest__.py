@@ -45,6 +45,7 @@ Datos para App android UO Aniversario 75.
         'restful'
     ],
     'data': [
+        'data/config.xml',
         'security/access.xml',
         'views/menu.xml',
         'views/campaña.xml',
@@ -65,6 +66,7 @@ Datos para App android UO Aniversario 75.
         'views/redesSociales.xml',
         'views/aviso.xml',
         'views/info.xml'
+
     ],
 
     'installable': True,
